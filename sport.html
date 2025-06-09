@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>index</title>
+    <title>Sports et activités physiques</title>
     <link rel="stylesheet" href="style.css" media="screen" />
   </head>
   <body class="sport">
@@ -13,34 +13,62 @@
         <li><a href="softSkills.html">Compétences transversales</a></li>
         <li><a href="ppp.html">Projet Professionnel</a></li>
         <li><a href="projet.html">Projets</a></li>
+        <li><a href="sport.html">Sports</a></li>
       </ul>
     </nav>
+    
     <header class="header">
-        <h1> Sports</h1>
+      <h1>Parcours sportif</h1>
     </header>       
+    
     <main>
-      <section class="natation">
-        <h3> 🏊 Natation :</h3>
-        <p> Pratique de la natation dès l’âge de cinq ans. Participation à plusieurs compétitions.
-        Plusieurs fois championne de Tunisie dans la catégorie minime et cadette. Faisait partie de
-        l’équipe nationale Tunisienne de la natation.</p>
-    </section>
-    
-    <section>
-        <h3> 🚣 Canoë kayak :</h3>
-        <p> Pratique du canoë kayak dès l’âge de dix ans. Participation à plusieurs
-        compétitions. Plusieurs fois championne de Tunisie dans la catégorie minime et cadette. Faisait
-        partie de l’équipe nationale Tunisienne du canoë kayak.</p>
-        <img src="image/canoe.jpg" alt="Canoë kayak" width="200px" height="200px">
-    </section>
-    
-    <section>
-        <h3> 🤸 Gymnastique :</h3>
-        <p> Pratique de la gymnastique entre l’âge de 5 à 10 ans.</p>
-    </section>
-    
+      <div class="sports-grid">
+        <section class="sport-card">
+          <div class="sport-image natation-img"></div>
+          <div class="sport-content">
+            <h3>🏊 Natation</h3>
+            <p>Pratique de la natation dès l'âge de cinq ans. Participation à plusieurs compétitions.</p>
+            <p>Plusieurs fois championne de Tunisie dans la catégorie minime et cadette. Membre de l'équipe nationale Tunisienne de natation.</p>
+            <div class="achievements">
+              <span class="badge">Équipe nationale</span>
+              <span class="badge">Championne</span>
+            </div>
+          </div>
+        </section>
+        
+        <section class="sport-card">
+          <div class="sport-image canoe-img"></div>
+          <div class="sport-content">
+            <h3>🚣 Canoë kayak</h3>
+            <p>Pratique du canoë kayak dès l'âge de dix ans. Participation à plusieurs compétitions.</p>
+            <p>Plusieurs fois championne de Tunisie dans la catégorie minime et cadette. Membre de l'équipe nationale Tunisienne du canoë kayak.</p>
+            <div class="achievements">
+              <span class="badge">Équipe nationale</span>
+              <span class="badge">Championne</span>
+            </div>
+          </div>
+        </section>
+        
+        <section class="sport-card">
+          <div class="sport-image gymnastique-img"></div>
+          <div class="sport-content">
+            <h3>🤸 Gymnastique</h3>
+            <p>Pratique de la gymnastique entre l'âge de 5 à 10 ans.</p>
+            <p>Cette discipline m'a permis de développer ma coordination, ma souplesse et ma discipline personnelle.</p>
+          </div>
+        </section>
+      </div>
 
+      <section class="sport-benefits">
+        <h2>Compétences développées grâce au sport</h2>
+        <ul>
+          <li>Discipline et rigueur</li>
+          <li>Gestion du stress et des compétitions</li>
+          <li>Travail en équipe</li>
+          <li>Persévérance face aux défis</li>
+          <li>Organisation et gestion du temps</li>
+        </ul>
+      </section>
     </main>      
-    
-
   </body>
+</html>
