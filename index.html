@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Portfolio - SEKMA Sarah</title>
     <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body class="index">
     <nav class="nav">
@@ -18,18 +19,55 @@
     </nav>
 
     <main>
-      <section class="accroche">
-        <h1 class="typed-text">Bienvenue sur mon Portfolio</h1>
-        <p>SEKMA Sarah, Étudiante en BUT Informatique</p>
-        <a href="https://www.canva.com/design/DAGRSPeG60M/_M4q4pdrrGGvlcqJH067VQ/view?utm_content=DAGRSPeG60M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7c68ef8bb8" class="btn-cv" target="_blank">Télécharger mon CV</a>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="typed-text">Bienvenue sur mon Portfolio</h1>
+          <p class="subtitle">SEKMA Sarah, Étudiante en BUT Informatique</p>
+          <div class="cta-buttons">
+            <a href="https://www.canva.com/design/DAGRSPeG60M/_M4q4pdrrGGvlcqJH067VQ/view?utm_content=DAGRSPeG60M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7c68ef8bb8" class="btn-cv" target="_blank">Télécharger mon CV</a>
+            <a href="projet.html" class="btn-secondary">Voir mes projets</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-links">
+        <h2>Explorer mon portfolio</h2>
+        <div class="links-grid">
+          <a href="hardSkills.html" class="quick-link">
+            <i class="fas fa-code"></i>
+            <span>Compétences techniques</span>
+          </a>
+          <a href="softSkills.html" class="quick-link">
+            <i class="fas fa-users"></i>
+            <span>Compétences transversales</span>
+          </a>
+          <a href="projet.html" class="quick-link">
+            <i class="fas fa-laptop-code"></i>
+            <span>Projets réalisés</span>
+          </a>
+          <a href="ppp.html" class="quick-link">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Projet professionnel</span>
+          </a>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Contactez-moi :</p>
-      <p>Email : sarahsekma04@gmail.com</p>
-      <p>Téléphone : <a href="tel:+33712345678">07 52 20 86 11</a></p>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contactez-moi</h3>
+          <p><i class="fas fa-envelope"></i> sarahsekma04@gmail.com</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+33752208611">07 52 20 86 11</a></p>
+        </div>
+        <div class="social-links">
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 SEKMA Sarah - Tous droits réservés</p>
+      </div>
     </footer>
   </body>
 </html>
-
