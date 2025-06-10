@@ -4,8 +4,6 @@ header h1 {
   margin-bottom: 5%;
 }
 
-
-
 .nav,
 .nav2 {
   display: flex;
@@ -28,7 +26,7 @@ header h1 {
 .nav ul li,
 .nav2 ul li {
   padding: 10px;
-  font-family: 'AmstelvarAlpha';
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -181,7 +179,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #d6e4f1;
   border-radius: 10px;
   text-decoration: none;
   color: #444;
@@ -584,6 +582,9 @@ body {
   border: 3px solid rgb(100, 39, 214); /* Ajout d'une bordure cohérente */
 
 }
+.projets section {
+  margin-bottom: 25px;
+}
 
 /* Effet au survol */
 .projets main section:hover {
@@ -601,8 +602,9 @@ body {
 
 /* Titres de section */
 .projets h2 {
-  font-size: 1.4em;
-  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 /* Style des liens dans les titres */
@@ -610,6 +612,8 @@ body {
   color: rgb(100, 39, 214);
   text-decoration: none;
   transition: color 0.3s ease;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 .projets h2 a:hover {
@@ -619,8 +623,10 @@ body {
 /* Paragraphes */
 .projets p {
   color: #444;
-  line-height: 1.6;
-  font-size: 1.05em;
+  line-height: 1.5;
+  font-size: 0.95em;
+  margin: 0 0 10px 0;
+  padding-left: 43px;
 }
 
 /* Images */
@@ -631,6 +637,13 @@ body {
   border-radius: 8px;
   margin: 15px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projet-icon {
+  font-size: 1.3em;
+  margin-right: 18px; /* Augmenté pour créer plus d'espace entre l'icône et le texte */
+  display: inline-block;
+  min-width: 25px;
 }
 
 /* Responsive design */
